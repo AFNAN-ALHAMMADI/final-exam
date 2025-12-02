@@ -208,3 +208,32 @@
     background-color: #97b8c7;
     transform: scale(1.07);
 }
+
+
+/*  login page */
+.hero-section {
+    margin-top: -50px;
+    background: radial-gradient(circle at center, #414142 0%, #cec8c8 55%, #e8e8e8 100%);
+    width: 100%;
+    min-height: 60vh; 
+    padding: 60px 0;
+}
+
+
+.register-btn {
+     margin-top: 12px;
+    padding: 8px 20px;
+    background-color: #491e5a;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.register-btn:hover {
+   background-color: #97b8c7;
+    transform: scale(1.07);
+}
+

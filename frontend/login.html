@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>متجر جوهرتي</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="logo.jpg">
+    </head>
+
+
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+
+                <div class="navbar-brand">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="jwharaty.jpg" >
+                    </a>
+                </div>
+
+
+                <div class="collapse navbar-collapse" id="navbarScroll">
+
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="main.html">الرئيسية</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="login.html">تسجيل الدخول</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="about.html">نبذه عنا</a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex search-box" role="search">
+                        <input type="search" placeholder="Search" aria-label="Search"/>
+                        <button type="submit">البحث</button>
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+
+
+    
+        <div class="hero-section d-flex flex-column justify-content-center align-items-center">
+            <h1 class="main-title">انشاء حساب</h1>
+
+            <div class="container form-container">
+                <form class="row g-3 p-4 rounded form-box">
+
+                    <div class="col-md-6">
+                        <label class="form-label">الاسم الأول :</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">الاسم الثاني :</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="col-12">
+                        <label class="form-label">كلمة المرور :</label>
+                        <input type="password" class="form-control" placeholder="*">
+                    </div>
+
+                    <div class="col-12">
+                        <label class="form-label">تأكيد كلمة المرور :</label>
+                        <input type="password" class="form-control" placeholder="*">
+                    </div>
+
+                    
+                    <div class="col-md-4">
+                        <label class="form-label">الدولة :</label>
+                        <select class="form-select">
+                            <option selected>اختيار...</option>
+                            <option>السعودية</option>
+                            <option>الكويت</option>
+                            <option>اليـمن</option>
+                            <option>الإمارات</option>
+                        </select>
+                    </div>
+
+
+                    <div class="col-md-6">
+                        <label class="form-label">المدينة :</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="col-md-2">
+                        <label class="form-label">الرمز البريدي :</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="col-12 form-check-area">
+                        <input class="form-check-input" type="checkbox">
+                        <label class="form-check-label">تأكيد المعلومات</label>
+                    </div>
+
+                    <div class="col-12 text-center">
+                        <button class="register-btn">تسجيل</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+
+    </body>
+</html>
